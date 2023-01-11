@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Playlist Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<h1>Playlist Converter</h1>
+<form method="post">
+    <input type="text" id="apple_playlist_url" name="apple_playlist_url" placeholder="Apple Music URL" size="url"><br>
+    <label for="spotify_playlist_public_enabled">Set Private</label>
+    <input id="spotify_playlist_public_enabled" name="spotify_playlist_public_enabled" type="checkbox"><br>
+    <input type="submit">
+</form>
+</body>
+</html>
